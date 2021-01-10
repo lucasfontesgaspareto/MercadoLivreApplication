@@ -1,0 +1,24 @@
+{
+  "name": "MercadoLivreApplication",
+  "description": "MercadoLivreApplication",
+  "keywords": ["nodejs", "mercadolivre"],
+  "website": "https://mercadolivreapplication.herokuapp.com/",
+  "repository": "https://github.com/lucasfontesgaspareto/MercadoLivreApplication",
+  "logo": "https://http2.mlstatic.com/storage/developers-site-cms-admin/322394706358-logo--small-v2.png",
+  "success_url": "/home",
+  "env": {
+    "CLIENT_ID": {
+      "description": "CLIENT_ID"
+    },
+    "CLIENT_SECRET": {
+      "description": "CLIENT_SECRET"
+    },
+    "REDIRECT_URI": {
+      "description": "REDIRECT_URI"
+    },
+    "SYS_PWD": {
+      "description": "SYS_PWD"
+    }
+  },
+  "image": "heroku/nodejs"
+}
